@@ -2,10 +2,10 @@ package com.company;
 import java.util.Scanner;
 
 public class Array_element_add_JAVA {
-    int [] element_array = new int[10];
     static void add_element(int i)
     {
         Scanner scan_values = new Scanner(System.in);
+        int [] element_array = new int[10];
         int input_value = scan_values.nextInt();
         element_array[i] = input_value;
         System.out.println(element_array[i]);
